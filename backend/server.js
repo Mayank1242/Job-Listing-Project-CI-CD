@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // MongoDB
 
-const mongoUrl="mongodb+srv://Mayank:mayank@atlascluster.xthj5bm.mongodb.net/"
+const mongoUrl="mongodb+srv://{username}:{password}@atlascluster.xthj5bm.mongodb.net/"
 
 
 mongoose
