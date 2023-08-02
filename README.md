@@ -34,6 +34,8 @@ Navigate to the project directory: cd job-listing-website
 
 To start your application, use the following command: docker-compose up -d
 
+Your Website will be up on your localhost:3000
+
 To Stop your application, use the following command: docker-compose down
 
 # Acknowledgment
