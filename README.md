@@ -28,7 +28,7 @@ Docker: Ensure that Docker is installed and running. You can download and instal
 
 Docker Compose: Check if Docker Compose is installed on your system. You can verify this by running the following command in your terminal or command prompt: docker-compose --version
 
-Clone the repository: git clone https://github.com/your-username/job-listing-website.git
+Clone the repository: git clone https://github.com/Mayank1242/Job-Listing-Project-CI-CD.git
 
 Navigate to the project directory: cd job-listing-website
 
