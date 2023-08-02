@@ -24,13 +24,13 @@ Docker Compose With Jenkins: Configuration for setting up CI/CD pipeline for sea
 # Getting Started
 Follow these instructions to set up the project on your local machine:
 
-Clone the repository: git clone https://github.com/your-username/job-listing-website.git
-
-Navigate to the project directory: cd job-listing-website
-
 Docker: Ensure that Docker is installed and running. You can download and install Docker from the official website: https://www.docker.com/get-started.
 
 Docker Compose: Check if Docker Compose is installed on your system. You can verify this by running the following command in your terminal or command prompt: docker-compose --version
+
+Clone the repository: git clone https://github.com/your-username/job-listing-website.git
+
+Navigate to the project directory: cd job-listing-website
 
 To start your application, use the following command: docker-compose up -d
 
