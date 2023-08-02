@@ -2,7 +2,8 @@
 
 # Description
 This project is a job listing website built using the MERN (MongoDB, Express, React, Node.js) stack. It allows employers to post job listings and job seekers to search and apply for jobs. The website is containerized using Docker, and Docker Compose is utilized to set up a CI/CD pipeline for seamless deployment.
-** Please Change the mongodb URL of the project in server.js file.
+
+***** Please Change the mongodb URL of the project in server.js file.
 
 # Features
 Employer Dashboard: Employers can sign in and post job listings.
