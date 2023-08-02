@@ -1,0 +1,14 @@
+From node:18-alpine
+WORKDIR /mydir
+
+COPY package*.json .
+
+RUN npm install
+
+COPY . .
+
+RUN npm install -g nodemon 
+RUN npm uninstall bcrypt
+RUN npm install bcrypt
+
+CMD [ "npm" , "start" ]

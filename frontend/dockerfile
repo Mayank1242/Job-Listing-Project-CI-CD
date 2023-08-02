@@ -1,0 +1,11 @@
+From node:18-alpine
+
+WORKDIR /mydir
+
+COPY package*.json .
+
+RUN npm install
+
+COPY . .
+
+CMD [ "npm" , "start" ]
